@@ -1,5 +1,6 @@
 <script>
 	import Nav from '../components/nav-component.svelte';
+	import Evidencias from '../components/evidencias-component.svelte';
 	import Home from '../components/home-component.svelte';
 	import About from '../components/aboutUs-component.svelte';
 	import Levels from '../components/levels-component.svelte';
@@ -22,9 +23,10 @@
 
 <Nav {up} />
 <Home />
+<Evidencias />
 <About />
-<Levels />
 <Testimonios />
+<Levels />
 <Galery />
 <Contact />
 <Footer />

@@ -1,4 +1,4 @@
-<div class="carousel w-full  mt-1">
+<div class="carousel w-full  mt-1" id="home">
 	<div id="slide1" class="carousel-item relative w-full ">
 		<img src="images/slider1.jpg" class="w-full h-4/5 brightness-50" alt=""/>
 		<div

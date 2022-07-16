@@ -36,7 +36,7 @@
 							<figure
 								class="rounded-full w-max h-max md:w-max md:h-max bg-slate-300"
 							>
-								<img src="icons/kinder1.svg" class="w-32 h-32" alt="" />
+								<img src="icons/kinder1.svg" class="w-32 h-32" alt="kinder1" />
 							</figure>
 						</div>
 						<div class="justify-center flex-col">
@@ -59,7 +59,7 @@
 							<figure
 								class="rounded-full w-max h-max md:w-max md:h-max bg-slate-300"
 							>
-								<img src="icons/kinder2.svg" class="w-36 h-36" alt="" />
+								<img src="icons/kinder2.svg" class="w-36 h-36" alt="kinder2" />
 							</figure>
 						</div>
 						<div class="justify-center flex-col">
@@ -80,7 +80,7 @@
 							<figure
 								class="rounded-full w-max h-max md:w-max md:h-max bg-slate-300"
 							>
-								<img src="icons/kinder3.svg" class="w-36 h-36" alt="" />
+								<img src="icons/kinder3.svg" class="w-36 h-36" alt="kinder3" />
 							</figure>
 						</div>
 						<div class="justify-center flex-col">
@@ -101,7 +101,7 @@
 							<figure
 								class="rounded-full w-max h-max md:w-max md:h-max bg-slate-300"
 							>
-								<img src="icons/ingles.svg" class="w-36 h-36" alt="" />
+								<img src="icons/ingles.svg" class="w-36 h-36" alt="ingles" />
 							</figure>
 						</div>
 						<div class="justify-center flex-col">
@@ -123,7 +123,7 @@
 							<figure
 								class="rounded-full w-max h-max md:w-max md:h-max bg-slate-300"
 							>
-								<img src="icons/computer.svg" class="w-36 h-36" alt="" />
+								<img src="icons/computer.svg" class="w-36 h-36" alt="computacion" />
 							</figure>
 						</div>
 						<div class="justify-center flex-col">
@@ -147,7 +147,7 @@
 							<figure
 								class="rounded-full w-max h-max md:w-max md:h-max bg-slate-300"
 							>
-								<img src="icons/educacionF.svg" class="w-36 h-36" alt="" />
+								<img src="icons/educacionF.svg" class="w-36 h-36" alt="educacion fisica" />
 							</figure>
 						</div>
 						<div class="justify-center flex-col">

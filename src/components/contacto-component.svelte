@@ -32,7 +32,7 @@
 								<img
 									src="icons/phone.svg"
 									class="w-6 h-6 inline-block mr-2"
-									alt=""
+									alt="phone"
 								/>
 							</span>
 							<a href="tel://52364449" class="inline-block"
@@ -47,7 +47,7 @@
 									<img
 										src="icons/map.svg"
 										class="w-6 h-6 inline-block mb-16 md:mb-8 mr-2"
-										alt=""
+										alt="map"
 									/>
 									<p class="inline-block md:hidden">
 										Av Hacienda de Narvarte #200,<br /> Prados del Rosario,
@@ -78,7 +78,7 @@
 									<img
 										src="icons/mail.svg"
 										class="w-6 h-6 inline-block mr-2"
-										alt=""
+										alt="mail"
 									/>
 								</span>
 								<p class="inline-block">kinderbambi2020@gmail.com</p>

@@ -32,7 +32,7 @@
 						<figure
 							class="rounded-full w-20 h-20 transition-all duration-150 hover:bg-slate-300 "
 						>
-							<img src="icons/us.svg" class="w-16 h-16" alt="" />
+							<img src="icons/us.svg" class="w-16 h-16" alt="us" />
 						</figure>
 						<h2 class="card-title text-center">Quiénes somos</h2>
 						<p class="text-center text-xs font-semibold text-gray-500">
@@ -46,7 +46,7 @@
 						<figure
 							class="rounded-full w-20 h-20 transition-all duration-150 hover:bg-slate-300 "
 						>
-							<img src="icons/heart.svg" class="w-16 h-16" alt="" />
+							<img src="icons/heart.svg" class="w-16 h-16" alt="mision" />
 						</figure>
 						<h2 class="card-title text-center">Misión</h2>
 						<p class="text-center text-xs font-semibold text-gray-500">
@@ -60,7 +60,7 @@
 						<figure
 							class="rounded-full w-20 h-20 transition-all duration-150 hover:bg-slate-300 "
 						>
-							<img src="icons/vision.svg" class="w-16 h-16" alt="" />
+							<img src="icons/vision.svg" class="w-16 h-16" alt="vision" />
 						</figure>
 						<h2 class="card-title text-center">Visión</h2>
 						<p class="text-center text-xs md:font-semibold text-gray-500">
@@ -74,7 +74,7 @@
 						<figure
 							class="rounded-full w-20 h-20 transition-all duration-150 hover:bg-slate-300 "
 						>
-							<img src="icons/school.svg" class="w-16 h-16" alt="" />
+							<img src="icons/school.svg" class="w-16 h-16" alt="instalaciones" />
 						</figure>
 						<h2 class="card-title text-center">Instalaciones</h2>
 						<p class="text-center text-xs font-semibold text-gray-500">
@@ -88,7 +88,7 @@
 						<figure
 							class="rounded-full w-20 h-20 transition-all duration-150 hover:bg-slate-300 "
 						>
-							<img src="icons/personal.svg" class="w-16 h-16" alt="" />
+							<img src="icons/personal.svg" class="w-16 h-16" alt="personal" />
 						</figure>
 						<h2 class="card-title text-center">Personal</h2>
 						<p class="text-center text-xs font-semibold text-gray-500">
@@ -102,7 +102,7 @@
 						<figure
 							class="rounded-full w-20 h-20 transition-all duration-150 hover:bg-slate-300 "
 						>
-							<img src="icons/book.svg" class="w-16 h-16" alt="" />
+							<img src="icons/book.svg" class="w-16 h-16" alt="sistema" />
 						</figure>
 						<h2 class="card-title text-center">Sistema de Enseñanza</h2>
 						<p class="text-center text-xs font-semibold text-gray-500">
@@ -116,7 +116,7 @@
 						<figure
 							class="rounded-full w-20 h-20 transition-all duration-150 hover:bg-slate-300 "
 						>
-							<img src="icons/academic.svg" class="w-16 h-16" alt="" />
+							<img src="icons/academic.svg" class="w-16 h-16" alt="niveles" />
 						</figure>
 						<h2 class="card-title text-center">Niveles Educativos</h2>
 						<p class="text-center text-xs font-semibold text-gray-500">
@@ -130,7 +130,7 @@
 						<figure
 							class="rounded-full w-20 h-20 transition-all duration-150 hover:bg-slate-300 "
 						>
-							<img src="icons/service.svg" class="w-16 h-16" alt="" />
+							<img src="icons/service.svg" class="w-16 h-16" alt="servicio" />
 						</figure>
 						<h2 class="card-title text-center">Servicio</h2>
 						<p class="text-center text-xs font-semibold text-gray-500">

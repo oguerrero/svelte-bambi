@@ -3,9 +3,9 @@
 	import Evidencias from '../components/evidencias-component.svelte';
 	import Home from '../components/home-component.svelte';
 	import About from '../components/aboutUs-component.svelte';
-	import Levels from '../components/levels-component.svelte';
+	import Programa from '../components/program-component.svelte';
 	import Testimonios from '../components/testimonios-component.svelte';
-	import Galery from '../components/galery-component.svelte';
+	import Galery from '../components/gallery-component.svelte';
 	import Contact from '../components/contacto-component.svelte';
 	import Footer from '../components/footer-component.svelte';
 
@@ -26,7 +26,7 @@
 <Evidencias />
 <About />
 <Testimonios />
-<Levels />
+<Programa />
 <Galery />
 <Contact />
 <Footer />

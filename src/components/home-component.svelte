@@ -1,6 +1,6 @@
 <div class="carousel w-full  mt-1" id="home">
 	<div id="slide1" class="carousel-item relative w-full ">
-		<img src="images/slider1.jpg" class="w-full h-4/5 brightness-50" alt=""/>
+		<img src="images/slider1.jpg" class="w-full h-4/5 brightness-50" alt="instalaciones"/>
 		<div
 			class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
 		>
@@ -14,7 +14,7 @@
 		</div>
 	</div>
 	<div id="slide2" class="carousel-item relative w-full">
-		<img src="images/slider2.jpg" class="w-full h-4/5  brightness-50" alt="" />
+		<img src="images/slider2.jpg" class="w-full h-4/5  brightness-50" alt="acceso" />
 		<div
 			class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
 		>
@@ -28,7 +28,7 @@
 		</div>
 	</div>
 	<div id="slide3" class="carousel-item relative w-full">
-		<img src="images/slider3.jpg" class="w-full h-4/5  brightness-50" alt="" />
+		<img src="images/slider3.jpg" class="w-full h-4/5  brightness-50" alt="patio" />
 		<div
 			class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
 		>
@@ -42,7 +42,7 @@
 		</div>
 	</div>
 	<div id="slide4" class="carousel-item relative w-full">
-		<img src="images/slider4.jpg" class="w-full h-4/5  brightness-50" alt="" />
+		<img src="images/slider4.jpg" class="w-full h-4/5  brightness-50" alt="grupos" />
 		<div
 			class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
 		>
@@ -56,7 +56,7 @@
 		</div>
 	</div>
 	<div id="slide5" class="carousel-item relative w-full">
-		<img src="images/slider5.jpg" class="w-full h-4/5 brightness-50" alt="" />
+		<img src="images/slider5.jpg" class="w-full h-4/5 brightness-50" alt="camaras" />
 		<div
 			class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
 		>
@@ -70,7 +70,7 @@
 		</div>
 	</div>
 	<div id="slide6" class="carousel-item relative w-full">
-		<img src="images/slider6.jpg" class="w-full h-4/5 brightness-50" alt="" />
+		<img src="images/slider6.jpg" class="w-full h-4/5 brightness-50" alt="detectores" />
 		<div
 			class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
 		>
@@ -84,7 +84,7 @@
 		</div>
 	</div>
 	<div id="slide7" class="carousel-item relative w-full">
-		<img src="images/slider7.jpg" class="w-full h-4/5 brightness-50" alt="" />
+		<img src="images/slider7.jpg" class="w-full h-4/5 brightness-50" alt="convenios" />
 		<div
 			class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
 		>
@@ -98,7 +98,7 @@
 		</div>
 	</div>
 	<div id="slide8" class="carousel-item relative w-full">
-		<img src="images/slider8.jpg" class="w-full h-4/5" alt="" />
+		<img src="images/slider8.jpg" class="w-full h-4/5" alt="kinder" />
 		<div
 			class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
 		>

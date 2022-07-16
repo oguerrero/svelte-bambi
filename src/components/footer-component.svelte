@@ -14,7 +14,7 @@
 >
 		<div in:fade class="flex flex-col md:flex-row">
 			<div>
-				<img src="images/logo1.png" alt="" />
+				<img src="images/logo1.png" alt="logo" />
 				<p class="text-black text-lg">
 					Jardin de niños bambi.<br />Ternura y Educación desde 1989
 				</p>

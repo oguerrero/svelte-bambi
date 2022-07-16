@@ -32,7 +32,7 @@
 			>
 				<div class="card bg-base-100 shadow-lg  shadow-secondary">
 					<div class="card-body items-center flex md:flex-row ">
-						<div class="w-2/5">
+						<div class="md:w-2/5">
 							<figure
 								class="rounded-full w-max h-max md:w-max md:h-max bg-slate-300"
 							>
@@ -55,7 +55,7 @@
 				</div>
 				<div class="card bg-base-100 shadow-lg  shadow-secondary">
 					<div class="card-body items-center flex md:flex-row">
-						<div class="w-2/5">
+						<div class="md:w-2/5">
 							<figure
 								class="rounded-full w-max h-max md:w-max md:h-max bg-slate-300"
 							>
@@ -76,7 +76,7 @@
 				</div>
 				<div class="card bg-base-100 shadow-lg  shadow-secondary">
 					<div class="card-body items-center flex md:flex-row">
-						<div class="w-2/5">
+						<div class="md:w-2/5">
 							<figure
 								class="rounded-full w-max h-max md:w-max md:h-max bg-slate-300"
 							>
@@ -97,7 +97,7 @@
 				</div>
 				<div class="card bg-base-100 shadow-lg  shadow-secondary">
 					<div class="card-body items-center flex md:flex-row">
-						<div class="w-2/5">
+						<div class="md:w-2/5">
 							<figure
 								class="rounded-full w-max h-max md:w-max md:h-max bg-slate-300"
 							>
@@ -119,7 +119,7 @@
 				</div>
 				<div class="card bg-base-100 shadow-lg  shadow-secondary">
 					<div class="card-body items-center flex md:flex-row">
-						<div class="w-2/5">
+						<div class="md:w-2/5">
 							<figure
 								class="rounded-full w-max h-max md:w-max md:h-max bg-slate-300"
 							>
@@ -143,7 +143,7 @@
 				</div>
 				<div class="card bg-base-100 shadow-lg  shadow-secondary">
 					<div class="card-body items-center flex md:flex-row">
-						<div class="w-2/5">
+						<div class="md:w-2/5">
 							<figure
 								class="rounded-full w-max h-max md:w-max md:h-max bg-slate-300"
 							>

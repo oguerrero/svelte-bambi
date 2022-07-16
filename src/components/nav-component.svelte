@@ -39,8 +39,11 @@
 				<li><a href="#galeria">Galería</a></li>
 			</ul>
 		</div>
-		<a class="btn btn-ghost normal-case text-xl" href="#home"
+		<a class="btn btn-ghost normal-case text-xl hidden md:flex" href="#home"
 			>Jardin de niños Bambi</a
+		>
+		<a class="btn btn-ghost normal-case text-xl md:hidden" href="#home"
+			>Kinder Bambi</a
 		>
 	</div>
 	<div class="navbar-center hidden lg:flex">

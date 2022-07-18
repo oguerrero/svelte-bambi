@@ -26,6 +26,7 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"@emailjs/browser": "^3.6.2",
 		"@tailwindcss/typography": "^0.5.4",
 		"daisyui": "^2.19.0",
 		"svelte-inview": "^3.0.1"

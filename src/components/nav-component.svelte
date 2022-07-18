@@ -34,8 +34,8 @@
 					>
 				</li>
 				<li><a href="#nosotros">Nosotros</a></li>
-				<li><a href="#programa">Programa</a></li>
 				<li><a href="#testimonios">Testimonios</a></li>
+				<li><a href="#programa">Programa</a></li>
 				<li><a href="#galeria">Galería</a></li>
 			</ul>
 		</div>
@@ -50,8 +50,8 @@
 		<ul class="menu menu-horizontal p-0">
 			<li><a href="#evidencias">Evidencias de Aprendizaje Covid-19</a></li>
 			<li><a href="#nosotros">Nosotros</a></li>
-			<li><a href="#programa">Programa</a></li>
 			<li><a href="#testimonios">Testimonios</a></li>
+			<li><a href="#programa">Programa</a></li>
 			<li><a href="#galeria">Galería</a></li>
 		</ul>
 	</div>

@@ -1,9 +1,54 @@
-<script>
+<script lang="ts">
 	import { fade } from 'svelte/transition';
 	import { inview } from 'svelte-inview';
 
-	let name;
 	let isInView;
+	let error = false, enviado = false;
+
+	let nombre, email, asunto, mensaje, honey;
+	const contact = {
+		name: nombre,
+		email: email,
+		subject: asunto,
+		honeypot: honey, // if any value received in this field, form submission will be ignored.
+		message: mensaje,
+		accessKey: '05ec710e-3538-41e4-a6fc-3c9f68ab5675', // get your access key from https://www.staticforms.xyz
+	};
+	const send = async (event) => {
+		event.preventDefault();
+
+		try {
+			const res = await fetch('https://api.staticforms.xyz/submit', {
+				method: 'POST',
+				body: JSON.stringify(contact),
+				headers: { 'Content-Type': 'application/json' },
+			});
+
+			const json = await res.json();
+
+			if (json.success) {
+				enviado = true;
+				nombre = '';
+				email = '';
+				asunto = '';
+				mensaje = '';
+				honey = '';
+				setInterval(() => {
+					enviado = false;
+				}, 5000);
+			} else {
+				error = true;
+				setInterval(() => {
+					error = false;
+				}, 5000);
+			}
+		} catch (e) {
+			error = true;
+			setInterval(() => {
+				error = false;
+			}, 5000);
+		}
+	};
 </script>
 
 <section
@@ -65,7 +110,7 @@
 									height="300"
 									frameborder="0"
 									style="border:0;"
-									allowfullscreen=""
+									allowfullscreen
 									aria-hidden="false"
 									tabindex="0"
 									title="map"
@@ -89,12 +134,19 @@
 				<div
 					class="grid flex-grow h-max card ml-4 bg-white rounded-box place-items-center mt-4 md:mt-0"
 				>
-					<form action="" class="form-control flex max-w-screen-2xl">
+					<form
+						action="https://api.staticforms.xyz/submit"
+						method="post"
+						class="form-control flex max-w-screen-2xl"
+						on:submit={send}
+					>
 						<div class="form-control w-full">
 							<input
 								type="text"
-								id={name}
+								id="name"
+								name="name"
 								placeholder="Nombre"
+								bind:value={nombre}
 								class="input input-group-lg my-2 border-2 border-gray-300 input-accent w-full md:w-96"
 							/>
 						</div>
@@ -102,34 +154,64 @@
 							<input
 								type="email"
 								placeholder="email"
+								name="email"
+								bind:value={email}
 								class="input input-group-lg my-2 border-2 border-gray-300  input-accent w-full md:w-96"
 							/>
 						</div>
 						<div class="form-control">
 							<input
 								type="text"
+								name="subject"
 								placeholder="Asunto"
+								bind:value={asunto}
 								class="input input-group-lg my-2 border-2 border-gray-300  input-accent w-full md:w-96"
 							/>
 						</div>
+						<input
+							type="text"
+							name="honeypot"
+							class="hidden"
+							bind:value={honey}
+						/>
 						<div class="form-control">
 							<textarea
 								id="message"
 								name="message"
 								rows="6"
 								placeholder="Mensaje"
+								bind:value={mensaje}
 								class="textarea resize-none my-2 border-2 border-gray-300  textarea-accent"
 							/>
 						</div>
 						<div class="py-4 text-center">
-							<a
+							<input
+								type="submit"
 								class="btn bg-gradient-to-r from-secondary to-primary border-0 text-white"
-								href="#placeholder">Enviar</a
-							>
+								value="Enviar"
+							/>
 						</div>
 					</form>
 				</div>
 			</article>
 		</div>
+		{#if enviado}
+			<div in:fade class="toast">
+				<div class="alert alert-info">
+					<div>
+						<span>Mensaje enviado.</span>
+					</div>
+				</div>
+			</div>
+		{/if}
+		{#if error}
+			<div in:fade class="toast">
+				<div class="alert alert-error">
+					<div>
+						<span>Ups, parece que hubo un error.</span>
+					</div>
+				</div>
+			</div>
+		{/if}
 	{/if}
 </section>

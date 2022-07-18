@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
 	import Nav from '../components/nav-component.svelte';
 	import Evidencias from '../components/evidencias-component.svelte';
 	import Home from '../components/home-component.svelte';
@@ -21,6 +21,9 @@
 	}
 </script>
 
+<svelte:head>
+    <title>Jardín de niños Bambi</title>
+</svelte:head>
 <Nav {up} />
 <Home />
 <Evidencias />

@@ -22,7 +22,9 @@
 					Evidencias de Aprendizaje 2020-2022
 				</p>
 			</h3>
-			<p class="py-4 md:py-0 prose max-w-none text-lg text-justify text-gray-700">
+			<p
+				class="py-4 md:py-0 prose max-w-none text-lg text-justify text-gray-700"
+			>
 				El compromiso del Jardin de Niños Bambi es que nuestros alumnos(as)
 				aprendan a pesar de situaciones adversas... Nuestra experiencia de más
 				de 40 años nos permite tener el personal, actividades, estrategias y
@@ -40,91 +42,19 @@
 				educación preescolar con clases a distancia. Cursando desde preescolar 1
 				hasta preescolar 3 en nuestro Colegio.
 			</p>
-			<div class="container px-5 py-2 mx-auto lg:pt-12 lg:px-32">
-				<div class="flex flex-wrap -m-1 md:-m-2 flex-col md:flex-row">
-					<div class="flex flex-wrap py-4 md:py-0 md:w-1/2">
-						<div class="w-full p-1 md:p-2">
-							<iframe
-								class="w-full aspect-video"
-								src="https://www.youtube.com/embed/qLGe3qMMxFw"
-								title="Evidencias de Aprendizaje 2020-2022"
-								allowfullscreen
-							/>
-						</div>
-					</div>
-					<div class="flex flex-wrap py-4 md:py-0 md:w-1/2">
-						<div class="w-full p-1 md:p-2">
-							<iframe
-								class="w-full aspect-video"
-								src="https://www.youtube.com/embed/LVI2s_O9T3w"
-								title="YouTube video player"
-								allowfullscreen
-							/>
-						</div>
-					</div>
-					<div class="flex flex-wrap py-4 md:py-0 md:w-1/2">
-						<div class="w-full p-1 md:p-2">
-							<iframe
-								class="w-full aspect-video"
-								src="https://www.youtube.com/embed/D1hV4HUSKW8"
-								title="YouTube video player"
-								allowfullscreen
-							/>
-						</div>
-					</div>
-					<div class="flex flex-wrap py-4 md:py-0 md:w-1/2">
-						<div class="w-full p-1 md:p-2">
-							<iframe
-								class="w-full aspect-video"
-								src="https://www.youtube.com/embed/kdtB_dO6m70"
-								title="YouTube video player"
-								allowfullscreen
-							/>
-						</div>
-					</div>
-					<div class="flex flex-wrap py-4 md:py-0 md:w-1/2">
-						<div class="w-full p-1 md:p-2">
-							<iframe
-								class="w-full aspect-video"
-								src="https://www.youtube.com/embed/VaRbgVGHklI"
-								title="YouTube video player"
-								allowfullscreen
-							/>
-						</div>
-					</div>
-					<div class="flex flex-wrap py-4 md:py-0 md:w-1/2">
-						<div class="w-full p-1 md:p-2">
-							<iframe
-								class="w-full aspect-video"
-								src="https://www.youtube.com/embed/A6upjPZGgCo"
-								title="YouTube video player"
-								allowfullscreen
-							/>
-						</div>
-					</div>
-					<div class="flex flex-wrap py-4 md:py-0 md:w-1/2">
-						<div class="w-full p-1 md:p-2">
-							<iframe
-								class="w-full aspect-video"
-								src="https://www.youtube.com/embed/bfEcwBMJAJ8"
-								title="YouTube video player"
-								allowfullscreen
-							/>
-						</div>
-					</div>
-					<div class="flex flex-wrap py-4 md:py-0 md:w-1/2">
-						<div class="w-full p-1 md:p-2">
-							<iframe
-								class="w-full aspect-video"
-								src="https://www.youtube.com/embed/wN1gjYZYB6E"
-								title="YouTube video player"
-								allowfullscreen
-							/>
-						</div>
-					</div>
-				</div>
+			<div class="pt-2">
+				<iframe
+				class="w-4/5 h-60 md:h-96 mx-auto" 
+					src="https://www.youtube.com/embed/videoseries?list=PLb2Rs3Ta9YFJ65dGvgcMiL5U1C05xgMdg"
+					title="YouTube video player"
+					frameborder="0"
+					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+					allowfullscreen
+				/>
 			</div>
-			<h5 class="text-center pt-4 text-sm font-bold text-gray-600">Ciclo Escolar 2021-2022 únicamente clases a distancia</h5>
+			<h5 class="text-center pt-4 text-sm font-bold text-gray-600">
+				Ciclo Escolar 2021-2022 únicamente clases a distancia
+			</h5>
 		</div>
 	{/if}
 </section>

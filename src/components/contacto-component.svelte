@@ -3,20 +3,21 @@
 	import { inview } from 'svelte-inview';
 
 	let isInView;
-	let error = false, enviado = false;
+	let error = false,
+		enviado = false;
 
 	let nombre, email, asunto, mensaje, honey;
-	const contact = {
-		name: nombre,
-		email: email,
-		subject: asunto,
-		honeypot: honey, // if any value received in this field, form submission will be ignored.
-		message: mensaje,
-		accessKey: '05ec710e-3538-41e4-a6fc-3c9f68ab5675', // get your access key from https://www.staticforms.xyz
-	};
+
 	const send = async (event) => {
 		event.preventDefault();
-
+		const contact = {
+			name: nombre,
+			email: email,
+			subject: asunto,
+			honeypot: honey, // if any value received in this field, form submission will be ignored.
+			message: mensaje,
+			accessKey: '05ec710e-3538-41e4-a6fc-3c9f68ab5675', // get your access key from https://www.staticforms.xyz
+		};
 		try {
 			const res = await fetch('https://api.staticforms.xyz/submit', {
 				method: 'POST',

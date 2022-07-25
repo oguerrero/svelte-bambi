@@ -28,7 +28,7 @@
 							<img
 								alt="gallery"
 								class="block object-cover object-center w-full h-full rounded-lg"
-								src="images/sombrero.jpg"
+								src="images/sombrero.webp"
 							/>
 						</div>
 					</div>
@@ -37,7 +37,7 @@
 							<img
 								alt="gallery"
 								class="block object-cover object-center w-full h-full rounded-lg"
-								src="images/guardia.jpg"
+								src="images/guardia.webp"
 							/>
 						</div>
 					</div>
@@ -46,7 +46,7 @@
 							<img
 								alt="gallery"
 								class="block object-cover object-center w-full h-full rounded-lg"
-								src="images/pastorela.png"
+								src="images/pastorela.webp"
 							/>
 						</div>
 					</div>
@@ -55,7 +55,7 @@
 							<img
 								alt="gallery"
 								class="block object-cover object-center w-full h-full rounded-lg"
-								src="images/maestra.png"
+								src="images/maestra.webp"
 							/>
 						</div>
 					</div>
@@ -64,7 +64,7 @@
 							<img
 								alt="gallery"
 								class="block object-cover object-center w-full h-full rounded-lg"
-								src="images/tambores.png"
+								src="images/tambores.webp"
 							/>
 						</div>
 					</div>
@@ -73,7 +73,7 @@
 							<img
 								alt="gallery"
 								class="block object-cover object-center w-full h-full rounded-lg"
-								src="images/biblioteca.jpg"
+								src="images/biblioteca.webp"
 							/>
 						</div>
 					</div>
@@ -82,7 +82,7 @@
 							<img
 								alt="gallery"
 								class="block object-cover object-center w-full h-full rounded-lg"
-								src="images/pesebre.jpg"
+								src="images/pesebre.webp"
 							/>
 						</div>
 					</div>
@@ -91,7 +91,7 @@
 							<img
 								alt="gallery"
 								class="block object-cover object-center w-full h-full rounded-lg"
-								src="images/pelota.jpg"
+								src="images/pelota.webp"
 							/>
 						</div>
 					</div>
@@ -100,7 +100,7 @@
 							<img
 								alt="gallery"
 								class="block object-cover object-center w-full h-full rounded-lg"
-								src="images/baile.png"
+								src="images/baile.webp"
 							/>
 						</div>
 					</div>
@@ -109,7 +109,7 @@
 							<img
 								alt="gallery"
 								class="block object-cover object-center w-full h-full rounded-lg"
-								src="images/libro.jpg"
+								src="images/libro.webp"
 							/>
 						</div>
 					</div>
@@ -118,7 +118,7 @@
 							<img
 								alt="gallery"
 								class="block object-cover object-center w-full h-full rounded-lg"
-								src="images/material.jpg"
+								src="images/material.webp"
 							/>
 						</div>
 					</div>
@@ -127,7 +127,7 @@
 							<img
 								alt="gallery"
 								class="block object-cover object-center w-full h-full rounded-lg"
-								src="images/boliche.jpg"
+								src="images/boliche.webp"
 							/>
 						</div>
 					</div>
@@ -136,7 +136,7 @@
 							<img
 								alt="gallery"
 								class="block object-cover object-center w-full h-full rounded-lg"
-								src="images/equilibrio.jpg"
+								src="images/equilibrio.webp"
 							/>
 						</div>
 					</div>
@@ -145,7 +145,7 @@
 							<img
 								alt="gallery"
 								class="block object-cover object-center w-full h-full rounded-lg"
-								src="images/colchonetas.jpg"
+								src="images/colchonetas.webp"
 							/>
 						</div>
 					</div>
@@ -154,7 +154,7 @@
 							<img
 								alt="gallery"
 								class="block object-cover object-center w-full h-full rounded-lg"
-								src="images/reyes.png"
+								src="images/reyes.webp"
 							/>
 						</div>
 					</div>
